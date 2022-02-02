@@ -13,11 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Blog.template.Layout');
-})-> name('Inicio');
 
-Route::get('/Vista1', function () {
+Route::get('/', function () {
     return view('Blog.Vista1');
 })-> name('Vista1');
 
